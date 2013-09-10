@@ -1,0 +1,3 @@
+name: CodeConformity
+markdown: redcarpet
+pygments: true
