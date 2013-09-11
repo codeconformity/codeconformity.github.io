@@ -1,0 +1,80 @@
+/* Header styles
+-------------------------------------------------- */
+
+#header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* Make the masthead heading the same height as the navigation */
+#header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 19px;
+  line-height: 40px;
+  font-weight: 300;
+}
+#header .nav-pills > li > a {
+  color: #bdc3c7;
+  font-weight: 300;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #ecf0f1;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+#footer .credit {
+  margin: 20px 0;
+}
+
+/* Responsive: Portrait tablets and up
+-------------------------------------------------- */
+
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  #header,
+  #content,
+  #footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  #header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
