@@ -3,17 +3,13 @@
 
 /* Main marketing message and sign up button */
 .jumbotron {
-  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
   background: none;
 }
 .jumbotron h1 {
   font-weight: 300;
-}
-.jumbotron .btn-outline {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 18px 24px;
-  font-size: 21px;
+  font-size: 50px;
 }
 .btn-outline {
   color: #5cb85c;
@@ -27,6 +23,10 @@
   background-color: #5cb85c;
   border-color: #5cb85c;
 }
+#logo {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
 
 /* List of features styles
 -------------------------------------------------- */
@@ -34,15 +34,9 @@
 #features {
   color: #fff;
   background: #34495e;
-  margin: 40px 0;
+  margin: 40px 0 0 0;
   padding: 40px 0;
 }
 #features p + h4 {
   margin-top: 28px;
-}
-
-/* List of screenshots styles
--------------------------------------------------- */
-#screenshots {
-  margin: 40px 0;
 }
