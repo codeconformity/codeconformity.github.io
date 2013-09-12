@@ -1,3 +1,5 @@
 name: Code Conformity
 markdown: redcarpet
 pygments: true
+
+exclude: ["README.md", "Gemfile", "Gemfile.lock"]
